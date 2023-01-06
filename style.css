@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hide{
+    display:none;
+}
+.car{
+    height:120px;
+    border-radius: 10px;
+    width:50px;
+    position:absolute;
+    bottom:120px;
+    background:url(./Xecuamanh.png);
+    background-repeat: no-repeat;
+    background-size: 50px 120px;
+}
+.carGame{
+    width:100%;
+    background: #F2E7D5;
+    background: url(https://media.giphy.com/media/xT1XGQMxNewM2zSs5q/giphy.gif);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.lines{
+    width:10px;
+    height:100px;
+    background: #F7F7F7;
+    position:absolute;
+    margin-left:240px;
+}
+
+.gameArea{
+    height:100vh;
+    width:500px;
+    background: #393E46;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+    border-right:10px double #fff;
+    border-left:10px double #fff;
+}
+.enemy{
+    height:100px;
+    border-radius: 10px;
+    width:50px;
+    position:absolute;
+    bottom:120px;
+    background:url(car.png);
+    background-repeat: no-repeat;
+    background-size: 50px 100px;
+}
+#score-div {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 10%;
+	font-size: 35px;
+	background-color: #4d4d4d;
+	color: #fff;
+	padding: 10px;
+}
+.startScreen{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#A6D1E6;
+    z-index: 1;
+    text-align:center;
+    padding:15px;
+    margin:auto;
+    width:50%;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 24px;
+    word-spacing: 3;
+    line-height: 50px;
+    text-transform: upper;
+}
+
